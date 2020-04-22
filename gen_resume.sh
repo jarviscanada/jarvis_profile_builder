@@ -6,13 +6,12 @@ init(){
   chmod +x $0
   wget https://raw.githubusercontent.com/jarviscanada/jarvis_resume_builder/master/resume_template.md -O ../README.md
   bash gen_resume.sh
-  exit 1
+  exit 0
 }
 
 if [ "$1" = "init" ]; then
   init
 fi
-
 
 if ! docker info &> /dev/null; then
   echo "Error: docker engine is not running"
