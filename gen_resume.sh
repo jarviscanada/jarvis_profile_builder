@@ -18,7 +18,7 @@ if ! docker info &> /dev/null; then
   exit 1
 fi
 
-template_resume=../resume.md
+template_resume=../README.md
 no_quote_resume=.resume.md
 output_resume_pdf=resume.pdf
 sed '/^>/d' $template_resume > $no_quote_resume
