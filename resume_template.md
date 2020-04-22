@@ -2,8 +2,9 @@
 > - By default, your resume will be distributed via github. However, you will also need to generate a PDF version of it. Please follow the PDF styling requirements below.
 > - Use ./resume/resume_pdf_generator.sh (requires docker) to generate PDF version
 > - Your PDF resume must not exceed one page, so please follow word requirement as specified in each section
-> - Please remove all quotes in this README file (e.g. any lines that start with `>`)
+> - Please remove all quotes in this README file (e.g. any lines that start with `>`) once you update all sections.
 > - Note: `resume_pdf_generator.sh` will remove all markdown quotes automatically
+> - For your reference, the original resume template file is in the Github repo [here](https://github.com/jarviscanada/jarvis_resume_builder/blob/master/resume_template.md)
 
 # John Smith . Jarvis Consulting
 

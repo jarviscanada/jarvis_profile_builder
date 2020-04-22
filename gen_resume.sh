@@ -2,6 +2,9 @@
 
 set -ex
 
+#cd to script dir
+cd "$(dirname "$0")"
+
 init(){
   chmod +x $0
   wget https://raw.githubusercontent.com/jarviscanada/jarvis_resume_builder/master/resume_template.md -O ../README.md
@@ -30,4 +33,5 @@ docker run --rm --volume "`pwd`:/data" --user `id -u`:`id -g` pandoc/latex:2.9.2
     ${no_quote_resume} -f markdown -t pdf -s \
     --pdf-engine=xelatex -V pagestyle=empty -V geometry:"top=${top_bot_margin}, bottom=${top_bot_margin}, left=${left_right_margin}, right=${left_right_margin}" -o ${output_resume_pdf}
 
+rm $no_quote_resume
 exit 0
