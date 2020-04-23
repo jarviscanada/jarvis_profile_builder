@@ -45,4 +45,4 @@ Note: `gen_resume.sh` will remove all markdown quotes (e.g. lines start with `>`
 
 ## Resume Style
 
-Resume style and instructions are documented in [resume_template.md](https://github.com/jarviscanada/jarvis_resume_builder/blob/master/resume_template.md). 
+If you have setup the resumer build in your Github, the resume style requiremetns should be documented in the top level `README.md`. For your reference, please see [resume_template.md](https://github.com/jarviscanada/jarvis_resume_builder/blob/master/resume_template.md) from this Github repo.
