@@ -4,7 +4,7 @@
 
 Jarvis Resume Builder is a bash utility tool that converts your markdown resume into PDF. This utility requires docker. 
 
-## Init 
+## Quick Start 
 
 Please follow the steps below to setup this tool in your Github repo. 
 
