@@ -45,4 +45,4 @@ Note: `gen_resume.sh` will remove all markdown quotes (e.g. lines start with `>`
 
 ## Resume Style
 
-If you have setsup the resume build in your Github, the resume style requirements are documented in the top level `README.md`. For your reference, here is the original document: [resume_template.md](./resume_template.md).
+If you have setsup the resume build in your Github, the resume style requirements are documented in the top level `README.md`. For your reference, [resume_template.md](./resume_template.md) is the original template document.
