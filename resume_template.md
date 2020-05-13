@@ -3,7 +3,6 @@
 > - Run resume_pdf_generator.sh (requires docker) to generate a PDF version
 > - Please remove all quotes in this README file (e.g. any lines that start with `>`) once you update all sections.
 > - Note: `resume_pdf_generator.sh` will remove all markdown quotes automatically, but you should still remove quotes from the markdown file
-> - Try your best to make a one page resume (PDF version)
 > - Resume instruction Notion page https://bit.ly/35Um9Y7
 > - For your reference, the original resume template file is in the Github repo [here](https://github.com/jarviscanada/jarvis_resume_builder/blob/master/resume_template.md)
 > - you will need to update the project description before the MCR.
