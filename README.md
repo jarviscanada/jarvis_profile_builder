@@ -19,7 +19,7 @@ docker info
 git status
 
 #create a new feature branch
-git checkout develop
+git checkout master
 git checkout -f feature/resume
 
 #init resume
