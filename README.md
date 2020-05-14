@@ -22,6 +22,19 @@ git checkout feature/resume
 mkdir resume && cd resume && wget https://raw.githubusercontent.com/jarviscanada/jarvis_resume_builder/master/gen_resume.sh -O gen_resume.sh && bash gen_resume.sh init
 ```
 
+Update the exiting script
+
+```
+#capitalize your name
+name="Firstname_Lastname"
+
+#update script and generate a new PDF file
+cd jarvis_data_eng_NAME
+cd resume && wget https://raw.githubusercontent.com/jarviscanada/jarvis_resume_builder/master/gen_resume.sh -O gen_resume.sh && bash gen_resume.sh $name
+
+# remove previous pdf file and commit the new file
+```
+
 ## Usage
 
 Note: `gen_resume.sh` will remove all markdown quotes (e.g. lines start with `>`) when generating the PDF file. 
@@ -34,19 +47,6 @@ Note: `gen_resume.sh` will remove all markdown quotes (e.g. lines start with `>`
 ./resume/gen_resume.sh Firstname_Lastname
 
 #generated pdf file is under the resume directory
-```
-
-Update the exiting script
-
-```
-#capitalize your name
-name="Firstname_Lastname"
-
-#update script and generate a new PDF file
-cd jarvis_data_eng_NAME
-cd resume && wget https://raw.githubusercontent.com/jarviscanada/jarvis_resume_builder/master/gen_resume.sh -O gen_resume.sh && bash gen_resume.sh $name
-
-# remove previous pdf file and commit the new file
 ```
 
 ## Resume Style
