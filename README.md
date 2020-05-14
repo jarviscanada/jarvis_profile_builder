@@ -36,6 +36,19 @@ Note: `gen_resume.sh` will remove all markdown quotes (e.g. lines start with `>`
 #generated pdf file is under the resume directory
 ```
 
+Update the exiting script
+
+```
+#capitalize your name
+name="Firstname_Lastname"
+
+#update script and generate a new PDF file
+cd jarvis_data_eng_NAME
+cd resume && wget https://raw.githubusercontent.com/jarviscanada/jarvis_resume_builder/master/gen_resume.sh -O gen_resume.sh && bash gen_resume.sh $name
+
+# remove previous pdf file and commit the new file
+```
+
 ## Resume Style
 
 If you have setsup the resume build in your Github, the resume style requirements are documented in the top level `README.md`. For your reference, [resume_template.md](./resume_template.md) is the original template document.
