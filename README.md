@@ -24,10 +24,6 @@ git checkout -f feature/resume
 
 #init resume
 mkdir resume && cd resume && wget https://raw.githubusercontent.com/jarviscanada/jarvis_resume_builder/master/gen_resume.sh -O gen_resume.sh && bash gen_resume.sh init
-
-#you should have the following files
-cd jarvis_data_eng_NAME
-ls README.md resume/gen_resume.sh resume/resume.pdf
 ```
 
 ## Usage
@@ -38,9 +34,10 @@ Note: `gen_resume.sh` will remove all markdown quotes (e.g. lines start with `>`
 #Update jarvis_data_eng_NAME/README.md
 
 #generate a new PDF version
-./resume/gen_resume.sh
+#capitalize your firstname and lastname
+./resume/gen_resume.sh Firstname_Lastname
 
-#verify resume/resume.pdf
+#generated pdf file is under the resume directory
 ```
 
 ## Resume Style
