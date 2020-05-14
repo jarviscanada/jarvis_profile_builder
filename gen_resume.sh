@@ -21,7 +21,7 @@ gen_resume() {
 
   template_resume=../README.md
   no_quote_resume=.resume.md
-  output_resume_pdf=jarvis_resume_${name}
+  output_resume_pdf=jarvis_resume_${name}.pdf
   sed '/^>/d' $template_resume >$no_quote_resume
 
   top_bot_margin=1.75cm
