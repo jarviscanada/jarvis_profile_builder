@@ -47,7 +47,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 
 ## Professional Experiences
 
->The job description allows hiring managers to understand understand your job and technologies you used(e.g. programing langauge, libraries, algorithms, hardwards, tools, etc.). The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem solving, improvements, communication). Write your Jarvis role as a professional expereince rather than training.
+>The job description allows hiring managers to understand your job and technologies you used(e.g. programing langauge, libraries, algorithms, hardwards, tools, etc.). The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem solving, improvements, communication). Write your Jarvis role as a professional expereince rather than training.
 
 **Software Developer,  Jarvis, Toronto (2020-Present):** Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis. (30 words)
 

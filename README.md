@@ -15,12 +15,8 @@ cd jarvis_data_eng_NAME
 #make sure docker engine is started
 docker info
 
-#make sure all files are commited in the current branch
-git status
-
-#create a new feature branch
-git checkout develop
-git checkout -f feature/resume
+#switch to the feature branch
+git checkout feature/resume
 
 #init resume
 mkdir resume && cd resume && wget https://raw.githubusercontent.com/jarviscanada/jarvis_resume_builder/master/gen_resume.sh -O gen_resume.sh && bash gen_resume.sh init
