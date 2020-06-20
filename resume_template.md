@@ -18,7 +18,7 @@ Donec fermentum, lectus tempor lobortis egestas, dolor dolor rhoncus justo, id p
 
 >**Proficient**: Keep the default skills. Add skills that you have learned from Jarvis projects and you are confident to work on in the future. You can also include the skills you learned outside Jarvis. You should have 8-12 skills and must not exceed one line in PDF version.
 
-**Proficient:** Java, Bash, SQL, Agile/Scrum
+**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
 >**Competent**:  Skills you learned from Jarvis projects but you are not confident to put into the proficient section. You can also include the skills you learned outside Jarvis. You should have no more than 12 skills and must not exceed one line in PDF version.
 
