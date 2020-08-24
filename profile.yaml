@@ -1,0 +1,87 @@
+# Preferred first and Lastname
+name: "John Smith"
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_mathew
+summary: Donec fermentum, lectus tempor lobortis egestas, dolor dolor rhoncus justo, id pharetra odio ligula quis odio. Morbi blandit id quam eget porttitor. Integer at ullamcorper dolor, at egestas turpis. Fusce ultricies justo tellus, a congue augue aliquet sit amet. Quisque ultrices dolor eu turpis malesuada interdum. Suspendisse in nisl et massa laoreet sodales. Nulla quis lectus sit amet velit finibus feugiat eget nec quam. Praesent eget nibh et diam mollis venenatis. 
+skills:
+  proficient:
+    - Java
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+  competent:
+    - Donec
+    - fermentum
+    - Donec
+    - fermentum
+    - Donec
+  familiar:
+    - Donec
+    - fermentum
+    - fermentum
+    - fermentum
+    - fermentum
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description:
+      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+  - name: "Springboot App"
+    git_url: "/springboot"
+    description: ""
+  - name: "Hadoop"
+    git_url: "/hadoop"
+    description: ""
+  - name: "Spark"
+    git_url: "/spark"
+    description: ""
+  - name: "Cloud/DevOps"
+    git_url: "/cloud_devops"
+    description: ""
+highlighted_projects:
+  - name: "Web app for resturant"
+    git_url: "https://github.com/jarviscanada/jarvis_resume_builder"
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+  - name: "Machine Learning"
+    git_url:
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+professional_experience:
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2020-present"
+    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+  - title: "Tutor"
+    company: "XYZ Company"
+    duration: "2019"
+    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+education: 
+  - school_name: "XYZ university"
+    duration: "2012-2016"
+    degree: "Bachelor of Applied Sciences"
+    department: "Electrical and Computer Engineering"
+    awards_achievements: 
+      - "Scholarship"
+      - "GPA: 3.8/4.0"
+  - school_name: "XYZ university"
+    duration: "2016-2018"
+    degree: "Master of Engineering"
+    department: "Electrical and Computer Engineering"
+    awards_achievements: 
+others:
+  - title: "Certificates"
+    bullets:
+      - "Udacity Machine Learning (2019)"
+  - title: "Awards"
+    bullets:
+      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
+      - "Winner"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Basketball player"
+      - "Competitive gaming"
+      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
