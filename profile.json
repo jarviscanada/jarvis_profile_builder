@@ -1,0 +1,132 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Scholarship",
+        "GPA: 3.8/4.0"
+      ],
+      "degree": "Bachelor of Applied Sciences",
+      "department": "Electrical and Computer Engineering",
+      "duration": "2012-2016",
+      "school_name": "XYZ university"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Master of Engineering",
+      "department": "Electrical and Computer Engineering",
+      "duration": "2016-2018",
+      "school_name": "XYZ university"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_mathew",
+  "highlighted_projects": [
+    {
+      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "git_url": "https://github.com/jarviscanada/jarvis_resume_builder",
+      "name": "Web app for resturant"
+    },
+    {
+      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "git_url": null,
+      "name": "Machine Learning"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": [
+        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "",
+      "git_url": "/springboot",
+      "name": "Springboot App"
+    },
+    {
+      "description": "",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "",
+      "git_url": "/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "",
+      "git_url": "/cloud_devops",
+      "name": "Cloud/DevOps"
+    }
+  ],
+  "name": "John Smith",
+  "others": [
+    {
+      "bullets": [
+        "Udacity Machine Learning (2019)"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Dean's List (2015, 2016): Ut enim ad minim veniam",
+        "Winner"
+      ],
+      "title": "Awards"
+    },
+    {
+      "bullets": [
+        "Basketball player",
+        "Competitive gaming",
+        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
+      "duration": "2020-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "XYZ Company",
+      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
+      "duration": "2019",
+      "title": "Tutor"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Donec",
+      "fermentum",
+      "Donec",
+      "fermentum",
+      "Donec"
+    ],
+    "familiar": [
+      "Donec",
+      "fermentum",
+      "fermentum",
+      "fermentum",
+      "fermentum"
+    ],
+    "proficient": [
+      "Java",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "Donec fermentum, lectus tempor lobortis egestas, dolor dolor rhoncus justo, id pharetra odio ligula quis odio. Morbi blandit id quam eget porttitor. Integer at ullamcorper dolor, at egestas turpis. Fusce ultricies justo tellus, a congue augue aliquet sit amet. Quisque ultrices dolor eu turpis malesuada interdum. Suspendisse in nisl et massa laoreet sodales. Nulla quis lectus sit amet velit finibus feugiat eget nec quam. Praesent eget nibh et diam mollis venenatis."
+}

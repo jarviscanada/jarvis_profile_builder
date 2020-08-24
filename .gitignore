@@ -1,0 +1,8 @@
+*.log
+.*
+!/.gitignore
+target/
+*.iml
+*.code-workspace
+venv
+*pdf

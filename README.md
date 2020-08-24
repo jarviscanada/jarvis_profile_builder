@@ -1,5 +1,12 @@
 # Jarvis Resume Builder
 
+```bash
+#
+
+# convert YAML to JSON
+docker run --rm -v "${PWD}":/workdir mikefarah/yq yq r -j --prettyPrint profile_sample.yaml > profile_sample.json
+```
+
 ## Introduction
 
 Jarvis Resume Builder is a bash utility tool that converts your markdown resume into PDF. This utility requires docker. 

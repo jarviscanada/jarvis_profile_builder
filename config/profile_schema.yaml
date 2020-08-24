@@ -1,0 +1,39 @@
+name: str(required=True, min=2)
+github_repo_root_url: str(required=True)
+summary: str(required=True)
+skills: include('skills')
+jarvis_projects: include('jarvis_projects')
+highlighted_projects: list(include('highlighted_project'))
+professional_experience: list(include('professional_experience'))
+education: list(include('education'))
+others: list(include('other'))
+---
+skills:
+  proficient: list(str(), min=5)
+  competent: list(str(), min=5)
+  familiar: list(str(), min=5)
+jarvis_projects: list(include('jarvis_project'))
+jarvis_project:
+  name: str(required=True)
+  git_url: str(required=True)
+  description: any(str(), list(str(), min=2))
+#highlighted_projects: list(include('highlighted_project'))
+highlighted_project:
+  name: str(required=True, min=2)
+  git_url: str(required=False)
+  description: str(required=True, min=50)
+#professional_experience: list(include('professional_exp'))
+professional_experience:
+  title: str(required=True, min=2)
+  company: str(required=True, min=2)
+  duration: str(required=True, min=2)
+  description: str(required=True, min=50)
+education:
+  school_name: str(required=True, min=2)
+  degree: str(required=True, min=2)
+  duration: str(required=True, min=2)
+  department: str(required=True, min=2)
+  awards_achievements: any(null(), list(str(required=True, min=2)))
+other:
+  title: str(required=True, min=2)
+  bullets: list(str(required=True, min=1))
