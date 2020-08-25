@@ -1,6 +1,6 @@
 name: str(required=True, min=2)
 github_repo_root_url: str(required=True)
-summary: str(required=True)
+summary: str(required=True, min=80)
 skills: include('skills')
 jarvis_projects: include('jarvis_projects')
 highlighted_projects: list(include('highlighted_project'))
