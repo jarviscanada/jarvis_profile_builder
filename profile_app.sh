@@ -80,8 +80,8 @@ validate_yaml
 get_profile_name
 yaml_to_json
 render_md
-overwrite_readme
 render_pdf
+overwrite_readme
 
 echo "Done!"
 exit 0

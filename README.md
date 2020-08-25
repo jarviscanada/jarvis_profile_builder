@@ -1,48 +1,69 @@
-# Jarvis Resume Builder
-
-```bash
-#
-
-# convert YAML to JSON
-docker run --rm -v "${PWD}":/workdir mikefarah/yq yq r -j --prettyPrint profile_sample.yaml > profile_sample.json
-```
+# Jarvis Profile Builder
 
 ## Introduction
 
-Jarvis Resume Builder is a bash utility tool that converts your markdown resume into PDF. This utility requires docker. 
+Jarvis Profile Builder is an utility tool that renders/converts a given `profile.yaml` file into JSON, markdown, and PDF. As a Jarvis consultant/trainee, you can easily update the single configuraiton file (`profile.yaml`) to generate different formats that allows account managers to distribute to clients.
 
 ## Quick Start 
 
 Please follow the steps below to setup this tool in your Github repo. 
 
-```
+```bash
 #cd to your Github repo parent directory
-cd jarvis_data_eng_NAME
+cd jarvis_data_eng_YourName
 
 #make sure docker engine is started
 docker info
 
 #switch to the feature branch
-git checkout feature/resume
+git checkout -b feature/profile
 
-#init resume
-mkdir resume && cd resume && wget https://raw.githubusercontent.com/jarviscanada/jarvis_resume_builder/master/gen_resume.sh -O gen_resume.sh && bash gen_resume.sh init
+#init profile dir
+mkdir profile && cd profile && wget https://raw.githubusercontent.com/jarviscanada/jarvis_profile_builder/master/profile_app.sh -O profile_app.sh && bash profile_app.sh init
+
+#update your name from the profile.yaml file
+vim profile.yaml
+
+#Render/Generate different file formats
+#Make sure you run this command prior every profile pull request
+bash profile_app.sh
+
+#This tool will generate the following files
+../README.md #overwrite your existing README
+profile.json #this file will be consume by Jarvis Consultant App
+jarvis_profile_John_Smith.pdf #PDF version of ../README.md
 ```
 
-## Usage
+## `profile.yaml`
+As a Jarvis consultant, this should be the only file you need to modify. Please read the [guidelines](https://www.notion.so/jarviscanada/Updating-Build-Your-Jarvis-Profile-01f001361c694b9bae7f1e53d0d1c93a).
 
-Note: `gen_resume.sh` will remove all markdown quotes (e.g. lines start with `>`) when generating the PDF file. 
+## `profile_app.sh`
+Usage:
+```bash
+#download sample yaml file
+bash profile_app.sh init
 
+#Render/convert the profile.yaml
+bash profile_app.sh
 ```
-#Update jarvis_data_eng_NAME/README.md
+The script will execute the following components documented below.👇
 
-#generate a new PDF version
-#capitalize your firstname and lastname
-./resume/gen_resume.sh Firstname_Lastname
+### YAML validator
+[Yamale](https://github.com/23andMe/Yamale) is used to validate the profile.yaml against the [profile_schema.yaml](./yamale/profile_schema.yaml). 
 
-#generated pdf file is under the resume directory
-```
+[jrvs/yamale](https://hub.docker.com/r/jrvs/yamale) docker image is available
 
-## Resume Style
+### Markdown
+[render_mardown](./render_markdown) is a Python tool that renders the profile.yaml file into a markdown file. The rendered markdown file will overwrite the `../README.md` which servers as the landing page for your Github.
 
-If you have setsup the resume build in your Github, the resume style requirements are documented in the top level `README.md`. For your reference, [resume_template.md](./resume_template.md) is the original template document.
+[jrvs/render_profile_md](https://hub.docker.com/r/jrvs/render_profile_md) docker image is available
+
+### JSON
+`mikefarah/yq` docker image is used to convert the profile.yaml into a JSON. The JSON file will be consumed by the Jarvis consulant web app which allows Jarvis' cleints to easily view all profiles.
+
+Jarvis Consultant App demo
+
+![Imgur](https://imgur.com/yVaQc8L.gif)
+
+### PDF
+`pandoc/latex:2.9.2.1` is used to render a given markdown file into PDF
