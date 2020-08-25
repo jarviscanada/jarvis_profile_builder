@@ -2,11 +2,12 @@
 
 
 function validate() {
-  docker run --rm -v "${PWD}":/workdir jrvs/yamale yamale -s ./config/profile_schema.yaml profile.yaml
+  docker pull jrvs/yamale
+  docker run --rm -v "${PWD}":/workdir jrvs/yamale yamale -s /schema/profile_schema.yaml profile.yaml
 }
 
 function get_profile_name() {
-  profile_name=$(docker run -it --rm -v "${PWD}":/workdir mikefarah/yq yq r profile.yaml name | xargs | sed -e 's/ /_/g')
+  profile_name=$(docker run -it --rm -v "${PWD}":/workdir mikefarah/yq yq r profile.yaml name  | xargs | tr -d '\r' | sed -e 's/ /_/g')
   profile_prefix=jarvis_profile_${profile_name}
 }
 
@@ -15,7 +16,8 @@ function yaml_to_json() {
 }
 
 function render_md() {
-  docker run --rm -it -v "${PWD}":/workdir jrvs/render_profile_md ./config/profile_template.md profile.yaml profile.md
+  docker pull jrvs/render_profile_md
+  docker run --rm -it -v "${PWD}":/workdir jrvs/render_profile_md  profile.yaml profile.md
 }
 
 function render_pdf() {

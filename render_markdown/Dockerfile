@@ -8,10 +8,10 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 # copy the content of the local src directory to the working directory
-COPY *.py /app/
+COPY *.py profile_template.md /app/
 
 WORKDIR /workdir
 # command to run on container start
-ENTRYPOINT [ "python", "/app/render_markdown.py"]
+ENTRYPOINT [ "python", "/app/render_markdown.py", "/app/profile_template.md"]
 #CMD [ "python", "/render_markdown.py", "/app/profile_sample.yaml",  "/app/profile_template.md",  "/app/resume.md"]
 #CMD [ "/bin/sh" ]

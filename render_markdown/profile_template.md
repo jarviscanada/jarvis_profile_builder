@@ -14,12 +14,12 @@
 
 Project source code: [{{profile.github_repo_root_url}}]({{profile.github_repo_root_url}})
 
-{%- for project in profile['jarvis_projects'] %}
-{%- set title = "- **[" + project.name + "](" + profile.github_repo_root_url + "/tree/master" + project.git_url + ")**:" %}
+{% for project in profile['jarvis_projects'] %}
+{%- set title = "**" + project.name + "** [[GitHub](" + profile.github_repo_root_url + "/tree/master" + project.git_url + ")]:" %}
 {%- if project.description %} 
    {%- if project.description is iterable and project.description is not string %}
 {{title}}
-      {%- for desc in project['description'] %}
+      {% for desc in project['description'] %}
   - {{desc}}
       {%- endfor %}
    {%- else %}
