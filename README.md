@@ -4,6 +4,8 @@
 
 Jarvis Profile Builder is an utility tool that renders/converts a given `profile.yaml` file into JSON, markdown, and PDF. As a Jarvis consultant/trainee, you can easily update the single configuraiton file (`profile.yaml`) to generate different formats that allows account managers to distribute to clients.
 
+
+
 ## Quick Start 
 
 Please follow the steps below to setup this tool in your Github repo. 
@@ -35,6 +37,10 @@ jarvis_profile_John_Smith.pdf #PDF version of ../README.md
 ```
 
 ## `profile.yaml`
+YAML (a recursive acronym for "YAML Ain't Markup Language") is a human-readable data-serialization language (similar to JSON but more human-readable). It is commonly used for configuration files and in applications where data is being stored or transmitted.
+
+[YAML Syntax Guide](https://rollout.io/blog/yaml-tutorial-everything-you-need-get-started/)
+
 As a Jarvis consultant, this should be the only file you need to modify. Please read the [guidelines](https://www.notion.so/jarviscanada/Updating-Build-Your-Jarvis-Profile-01f001361c694b9bae7f1e53d0d1c93a).
 
 ## `profile_app.sh`
@@ -47,6 +53,8 @@ bash profile_app.sh init
 bash profile_app.sh
 ```
 The script will execute the following components documented below.👇
+
+<img src="https://i.imgur.com/x9d1uHC.jpg" width="720">
 
 ### YAML validator
 [Yamale](https://github.com/23andMe/Yamale) is used to validate the profile.yaml against the [profile_schema.yaml](./yamale/profile_schema.yaml). 
@@ -63,7 +71,7 @@ The script will execute the following components documented below.👇
 
 Jarvis Consultant App demo
 
-![Imgur](https://imgur.com/yVaQc8L.gif)
+<img src="https://imgur.com/yVaQc8L.gif" width="300">
 
 ### PDF
 `pandoc/latex:2.9.2.1` is used to render a given markdown file into PDF
