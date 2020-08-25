@@ -22,7 +22,7 @@ function check_status() {
   fi
 }
 
-function validate() {
+function validate_yaml() {
   echo "---- Validating profile.yaml file ----"
   docker pull jrvs/yamale
   docker run --rm -v "${PWD}":/workdir jrvs/yamale yamale -s /schema/profile_schema.yaml profile.yaml
@@ -65,14 +65,22 @@ function render_pdf() {
   check_status $?
 }
 
+function overwrite_readme() {
+  if ls ../README.md; then
+    echo "---- Moving profile.md to ../README.md ----"
+    mv profile.md ../README.md
+  fi
+}
+
 if [ "$1" = "init" ]; then
   init
 fi
 
-validate
+validate_yaml
 get_profile_name
 yaml_to_json
 render_md
+overwrite_readme
 render_pdf
 
 echo "Done!"
