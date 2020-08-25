@@ -1,5 +1,15 @@
 #!/bin/bash
 
+#cd to script dir
+cd "$(dirname "$0")"
+
+function init() {
+  echo "---- Downloading sample profile.yaml file ----"
+  chmod +x $0
+  wget https://github.com/jarviscanada/jarvis_resume_builder/blob/develop/profile.yaml .
+  exit 0
+}
+
 function check_status() {
   exit_code=$1
   if [ ${exit_code} -eq 0 ]
@@ -54,6 +64,10 @@ function render_pdf() {
     --pdf-engine=xelatex -V pagestyle=empty -V fontsize=${font_size}pt -V geometry:"top=${top_bot_margin}, bottom=${top_bot_margin}, left=${left_right_margin}, right=${left_right_margin}" -o ${output_profile_pdf}
   check_status $?
 }
+
+if [ "$1" = "init" ]; then
+  init
+fi
 
 validate
 get_profile_name
