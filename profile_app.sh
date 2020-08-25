@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 function init() {
   echo "---- Downloading sample profile.yaml file ----"
   chmod +x $0
-  wget https://github.com/jarviscanada/jarvis_resume_builder/blob/develop/profile.yaml .
+  wget https://raw.githubusercontent.com/jarviscanada/jarvis_resume_builder/develop/profile.yaml .
   exit 0
 }
 
