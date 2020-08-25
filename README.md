@@ -1,10 +1,8 @@
 # Jarvis Profile Builder
 
-## Introduction
-
 Jarvis Profile Builder is an utility tool that renders/converts a given `profile.yaml` file into JSON, markdown, and PDF. As a Jarvis consultant/trainee, you can easily update the single configuraiton file (`profile.yaml`) to generate different formats that allows account managers to distribute to clients.
 
-
+<img src="https://i.imgur.com/x9d1uHC.jpg" width="720">
 
 ## Quick Start 
 
@@ -54,7 +52,6 @@ bash profile_app.sh
 ```
 The script will execute the following components documented below.👇
 
-<img src="https://i.imgur.com/x9d1uHC.jpg" width="720">
 
 ### YAML validator
 [Yamale](https://github.com/23andMe/Yamale) is used to validate the profile.yaml against the [profile_schema.yaml](./yamale/profile_schema.yaml). 
