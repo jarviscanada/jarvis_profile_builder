@@ -2,7 +2,7 @@
 
 Jarvis Profile Builder is an utility tool that renders/converts a given [profile.yaml](./profile.yaml) file into [profile.json](./profile.json), [profile.md](./profile.md), and [profile.pdf](./jarvis_profile_Jack_Smith.pdf) files. As a Jarvis consultant/trainee, you can easily update the single configuraiton file (`profile.yaml`) to generate different formats that allows account managers to distribute to clients.
 
-<img src="https://i.imgur.com/x9d1uHC.jpg" width="720">
+<img src="https://i.imgur.com/ZATEl1H.jpg" width="720">
 
 # Quick Start 
 
@@ -20,7 +20,7 @@ git checkout master
 git checkout -b feature/profile
 
 #init profile dir
-mkdir profile && cd profile && wget https://raw.githubusercontent.com/jarviscanada/jarvis_profile_builder/master/profile_app.sh -O profile_app.sh && bash profile_app.sh init
+mkdir profile && cd profile && wget https://raw.githubusercontent.com/jarviscanada/jarvis_profile_builder/develop/profile_app.sh -O profile_app.sh && bash profile_app.sh init
 
 #update your name from the profile.yaml file
 vim profile.yaml
@@ -36,11 +36,12 @@ jarvis_profile_John_Smith.pdf #PDF version of ../README.md
 ```
 
 # `profile.yaml`
+
+As a Jarvis consultant, this should be the only file you need to modify. Please see [Build your profile](##build-your-profile) section.
+
 YAML (a recursive acronym for "YAML Ain't Markup Language") is a human-readable data-serialization language (similar to JSON but more human-readable). It is commonly used for configuration files and in applications where data is being stored or transmitted.
 
 [YAML Syntax Guide](https://rollout.io/blog/yaml-tutorial-everything-you-need-get-started/)
-
-As a Jarvis consultant, this should be the only file you need to modify. Please read the [guidelines](https://www.notion.so/jarviscanada/Updating-Build-Your-Jarvis-Profile-01f001361c694b9bae7f1e53d0d1c93a).
 
 # `profile_app.sh`
 Usage:
