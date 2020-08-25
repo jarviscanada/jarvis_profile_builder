@@ -5,4 +5,3 @@ target/
 *.iml
 *.code-workspace
 venv
-*pdf
