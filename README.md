@@ -76,7 +76,7 @@ Jarvis Consultant App demo
 
 # Build your profile
 
-- [ ] Setup the profile tool in your Github repo by following the `Quick Start` Section above
+- [ ] Setup the profile tool frome your Github repo by following the [Quick Start](#quick-start) Section above
 - [ ] Edit the profile.yaml file from your favorite IDE.
   - [ ] Check your spelling and grammar through https://www.grammarly.com/
   - [ ] Execute `bash profile_app.sh`
