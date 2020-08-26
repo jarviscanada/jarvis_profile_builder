@@ -95,6 +95,7 @@ education:
     # optional
     awards_achievements: 
       - "Scholarship"
+      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
       - "GPA: 3.8/4.0"
   - school_name: "XYZ university"
     duration: "2016-2018"
@@ -111,7 +112,6 @@ others:
       - "Udacity Machine Learning (2019)"
   - title: "Awards"
     bullets:
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
       - "Winner"
   - title: "Activities/Hobbies"
     bullets:
