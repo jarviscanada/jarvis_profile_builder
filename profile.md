@@ -1,4 +1,4 @@
-# Jack Smith . Jarvis Consulting
+# John Smith . Jarvis Consulting
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
 
@@ -32,7 +32,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 **Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: Not Started
 
 
-## Higlighted Projects
+## Highlighted Projects
 **Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
 
 **Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.

@@ -1,6 +1,6 @@
 # Jarvis Profile Builder
 
-As a Jarvis consultant, your profile/resume will be distributed to clients via various channels in different formats. The Jarvis Consultant Web App (screenshot below) allows clients to view your profile conveniently. The [markdown profile](./profile.md) will be displayed on your GitHub repo as the landing page. The [PDF profile](./jarvis_profile_Jack_Smith.pdf) is often required by HR systems. Therefore, keeping profile styling consistent is crucial.
+As a Jarvis consultant, your profile/resume will be distributed to clients via various channels in different formats. The Jarvis Consultant Web App (screenshot below) allows clients to view your profile conveniently. The [markdown profile](./profile.md) will be displayed on your GitHub repo as the landing page. The [PDF profile](./jarvis_profile_John_Smith.pdf) is often required by HR systems. Therefore, keeping profile styling consistent is crucial.
 
 Instead of writing various profile formats manually, the Jarvis Profile Builder allows a consultant to render/generate various profile formats by editing a single [profile.yaml](./profile.yaml) configuration.
 
