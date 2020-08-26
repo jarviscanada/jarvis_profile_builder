@@ -48,6 +48,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 ## Education
 **XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
 - Scholarship
+- Dean's List (2015, 2016): Ut enim ad minim veniam
 - GPA: 3.8/4.0
 
 **XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
@@ -55,7 +56,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 
 ## Miscellaneous
 - Udacity Machine Learning (2019)
-- Dean's List (2015, 2016): Ut enim ad minim veniam
 - Winner
 - Basketball player
 - Competitive gaming
