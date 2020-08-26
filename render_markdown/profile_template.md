@@ -30,7 +30,7 @@ Project source code: [{{profile.github_repo_root_url}}]({{profile.github_repo_ro
 {%- endif %}
 {% endfor %}
 
-## Higlighted Projects
+## Highlighted Projects
 {%- for project in profile['highlighted_projects'] %}
 **{{project.name}}** {%- if project.git_url %} [[GitHub]({{project.git_url}})]{%- endif %}: {{project.description}}
 {% endfor %}
