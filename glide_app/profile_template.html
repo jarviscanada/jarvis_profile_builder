@@ -1,6 +1,12 @@
 <!-- Intro -->
-<? var profile = getProfile();?><p style="font-weight:300; font-size:16px; line-height: 1.2em; margin-top:10px; margin-bottom:6px"><?=profile.summary?></p>
+<? var profile = getProfile();?>
 
+<? if (!profile) { ?>
+<!-- Deal with empty profile -->
+Profile is not availble, please contact Jarvis account manager
+<? } else  { ?>
+<!-- Profile template -->
+<p style="font-weight:300; font-size:16px; line-height: 1.2em; margin-top:10px; margin-bottom:6px"><?=profile.summary?></p>
 <!-- Skills -->
 <center>
    <h3 style="margin-top:30px;">Skills</h3>
@@ -16,7 +22,7 @@
 <h4>Familiar</h4>
  <?for(i in profile.skills.familiar){?>
     <?=profile.skills.familiar[i]+', '?>
-    <?}?>  
+    <?}?>
 
 <!-- Professional Exp -->
 <center>
@@ -49,13 +55,13 @@
 <?}?>
 <? } else  { ?>
 <?=profile.jarvis_projects[i].description ?>
-<?}?>   
+<?}?>
 
 
 <? } else  { ?>
 <p>Not Started</p>
-<?}?>   
-<?}?>   
+<?}?>
+<?}?>
 
 <!-- Education -->
 <center>
@@ -85,7 +91,7 @@
    <img align="right" border="0" alt="github" src="https://i.imgur.com/Xt477bi.png" width="25px">
    </a>
 <?}?>
- 
+
 </h4>
 <?=profile.highlighted_projects[i].description?>
 <?}?>
@@ -99,5 +105,6 @@
 <? for(j in profile.others[i].bullets){?>
 <?!="- <p>" + profile.others[i].bullets[j]+'</p>\n'?>
 <?}?>
- 
+
+<?}?>
 <?}?>
