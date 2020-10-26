@@ -1,0 +1,26 @@
+{
+    "name": "Zhen Zhang",
+    "summary": "I'm well-versed in Data Engineering and Java web application development with a strong understanding of object-oriented programming and the software development life cycle.",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/zhenzhangca/Java_Applications.git"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/zhenzhangca/Java_Applications.git"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": "https://github.com/zhenzhangca/Trading_Application.git"
+        },
+        {
+            "name": "Hadoop & Spark",
+            "git_url": ""
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": "https://github.com/zhenzhangca/cloud_DevOps.git"
+        }
+    ]
+}

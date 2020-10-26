@@ -1,0 +1,26 @@
+{
+    "name": "Zifan Gao",
+    "summary": "I am a Associate Data Engineer with great passion of learning new tools and technologies . I graduated from University of Toronto. In my current role I\u2019ve accomplished many projects related to Linux, Java(with SpringBoot), Cloud and big data. I am eager to enter next step of my carrer. In my free time, I enjoy calligraphy.",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/AshleyZifan/Jarvis_Apps"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/AshleyZifan/Jarvis_Apps"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": "https://github.com/AshleyZifan/Trading_App"
+        },
+        {
+            "name": "Hadoop & Spark",
+            "git_url": "https://github.com/AshleyZifan/Hadoop"
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": "https://github.com/AshleyZifan/Cloud_DevOps"
+        }
+    ]
+}

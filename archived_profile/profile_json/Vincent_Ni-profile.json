@@ -1,0 +1,26 @@
+{
+    "name": "Vincent Ni",
+    "summary": "I'm a recent graduate from York University with a focus on back-end development, OOP and database. I have a strong interest in big data and cloud computing.",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/vincentni-jrvs/Java-Applications"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/vincentni-jrvs/Java-Applications"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": "https://github.com/vincentni-jrvs/Java-Trading-App#"
+        },
+        {
+            "name": "Hadoop & Spark",
+            "git_url": ""
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": "https://github.com/vincentni-jrvs/cloud_DevOps"
+        }
+    ]
+}

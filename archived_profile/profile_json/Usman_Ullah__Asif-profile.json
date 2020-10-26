@@ -1,0 +1,26 @@
+{
+    "name": "Usman Ullah  Asif",
+    "summary": "I'm an experienced Data Engineer with a demonstrated history of working in the information technology and services industry. Skilled in Google Cloud Platform, Apache Kafka, Java, Apache Spark, and Networking. I posess a Master of Engineering (MEng) focused in Big Data Engineering from the University of Ottawa.",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/usmanasifjrvs/Java_apps/"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/usmanasifjrvs/Java_apps/"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": ""
+        },
+        {
+            "name": "Hadoop & Spark",
+            "git_url": ""
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": ""
+        }
+    ]
+}
