@@ -1,0 +1,20 @@
+# Preferred name (Characters only)
+name: "Andre Antunes"
+template: "b1_simple_profile_template"
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: I'm a Data Engineering Associate with experience in object-oriented programming, back-end development, database design, and machine learning. Eager to learn, excellent people, time-management and leadership skills with a strong desire to grow in my field and produce an exceptional product.
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "https://github.com/aaantunes/Linux_Usage_Agent"
+  - name: "Core Java Apps"
+    git_url: "https://github.com/aaantunes/trading_app"
+  - name: "Springboot App"
+    git_url: "https://github.com/aaantunes/cloud_DevOps"
+  - name: "Hadoop & Spark"
+    git_url: ""
+  - name: "Cloud/DevOps"
+    git_url: "https://github.com/aaantunes/cloud_DevOps"
