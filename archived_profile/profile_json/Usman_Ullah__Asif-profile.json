@@ -1,6 +1,7 @@
 {
     "name": "Usman Ullah  Asif",
     "summary": "I'm an experienced Data Engineer with a demonstrated history of working in the information technology and services industry. Skilled in Google Cloud Platform, Apache Kafka, Java, Apache Spark, and Networking. I posess a Master of Engineering (MEng) focused in Big Data Engineering from the University of Ottawa.",
+    "template": "b1_simple_profile_template",
     "jarvis_projects": [
         {
             "name": "Cluster Monitor",

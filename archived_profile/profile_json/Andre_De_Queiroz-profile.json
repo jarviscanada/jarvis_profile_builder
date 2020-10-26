@@ -1,6 +1,7 @@
 {
     "name": "Andre De Queiroz",
     "summary": "I was working as a maintenance engineer in the middle of the Amazon jungle when I first experienced the power of data. It was awesome to see data driven insight turn into millions of dollars in revenue. I fell in love with the power of data, moved to Canada, enrolled and graduated from a postgraduate program in Big Data at Lambton College, and am aspiring to a career as Data Engineer.",
+    "template": "b1_simple_profile_template",
     "jarvis_projects": [
         {
             "name": "Cluster Monitor",

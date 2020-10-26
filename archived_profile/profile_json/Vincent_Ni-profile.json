@@ -1,6 +1,7 @@
 {
     "name": "Vincent Ni",
     "summary": "I'm a recent graduate from York University with a focus on back-end development, OOP and database. I have a strong interest in big data and cloud computing.",
+    "template": "b1_simple_profile_template",
     "jarvis_projects": [
         {
             "name": "Cluster Monitor",

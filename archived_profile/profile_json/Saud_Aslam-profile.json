@@ -1,6 +1,7 @@
 {
     "name": "Saud Aslam",
     "summary": "I graduated with a Masters in Computer Engineering from the University of Waterloo. My expertise lies in core Java, SQL, Python, Linux and C++. I enjoy working in teams and equally enjoy working on my own. I believe in a quality first approach to practicing software development; I don't sleep until my code is bug free.",
+    "template": "b1_simple_profile_template",
     "jarvis_projects": [
         {
             "name": "Cluster Monitor",

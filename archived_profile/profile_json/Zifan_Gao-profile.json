@@ -1,6 +1,7 @@
 {
     "name": "Zifan Gao",
     "summary": "I am a Associate Data Engineer with great passion of learning new tools and technologies . I graduated from University of Toronto. In my current role I\u2019ve accomplished many projects related to Linux, Java(with SpringBoot), Cloud and big data. I am eager to enter next step of my carrer. In my free time, I enjoy calligraphy.",
+    "template": "b1_simple_profile_template",
     "jarvis_projects": [
         {
             "name": "Cluster Monitor",

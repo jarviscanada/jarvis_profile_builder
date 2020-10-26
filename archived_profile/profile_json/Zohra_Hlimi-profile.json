@@ -1,6 +1,7 @@
 {
     "name": "Zohra Hlimi",
     "summary": "I'm a highly motivated Data Engineer, who likes to think outside of the box! I'm self-driven, passionate and always willing to learn and am interested in developing myself in the field of big data analysis and machine learning. \n",
+    "template": "b1_simple_profile_template",
     "jarvis_projects": [
         {
             "name": "Cluster Monitor",

@@ -1,6 +1,7 @@
 {
     "name": "Zhen Zhang",
     "summary": "I'm well-versed in Data Engineering and Java web application development with a strong understanding of object-oriented programming and the software development life cycle.",
+    "template": "b1_simple_profile_template",
     "jarvis_projects": [
         {
             "name": "Cluster Monitor",

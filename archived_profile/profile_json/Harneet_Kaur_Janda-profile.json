@@ -1,6 +1,7 @@
 {
     "name": "Harneet Kaur Janda",
     "summary": "I'm a Data Engineering Associate at Jarvis and a recent graduate with a Master's degree in Computer Science and Research experience in Machine Learning and Natural Language Processing. I'm skilled in Python, Java 8, Linux CLI, R, Spring Boot, SQL and Predictive Modelling and love technology.",
+    "template": "b1_simple_profile_template",
     "jarvis_projects": [
         {
             "name": "Cluster Monitor",

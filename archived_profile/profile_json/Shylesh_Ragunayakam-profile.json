@@ -1,6 +1,7 @@
 {
     "name": "Shylesh Ragunayakam",
     "summary": "I'm an aspiring Data Engineer with a demonstrated history of working in computer software and hardware. I'm skilled in Java, C, and Object-Oriented Programming. I possess a Bachelor's degree in Computer Engineering from Ryerson University and am an individual that strives to learn as thoroughly as possible in hope of reaching high levels of understanding. I'm particularly passionate about data engineering, security engineering and developing applications that are stable, performant and secure.",
+    "template": "b1_simple_profile_template",
     "jarvis_projects": [
         {
             "name": "Cluster Monitor",

@@ -1,6 +1,7 @@
 {
     "name": "Tony Wei",
     "summary": "I'm a skilled Big Data Engineer who is passionate about data and the insights that large amounts of data can provide. I think locally but act globally, and aspire to contribute to advancing the state of Data Enginieering as a discipline.",
+    "template": "b1_simple_profile_template",
     "jarvis_projects": [
         {
             "name": "Cluster Monitor",

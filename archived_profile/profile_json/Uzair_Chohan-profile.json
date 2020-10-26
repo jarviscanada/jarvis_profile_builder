@@ -1,6 +1,7 @@
 {
     "name": "Uzair Chohan",
     "summary": "I'm an Electrical Engineer and a recent Computer Science graduate from the University of Windsor. I'm eager to learn new tools and technologies and have a strong desire to grow and excel in the field of Data Engineering.",
+    "template": "b1_simple_profile_template",
     "jarvis_projects": [
         {
             "name": "Cluster Monitor",

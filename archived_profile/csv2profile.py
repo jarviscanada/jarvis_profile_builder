@@ -12,6 +12,7 @@ def make_profile(csv_profile):
     profile = {}
     profile['name'] = csv_profile['Name']
     profile['summary'] = csv_profile['Summary']
+    profile['template'] = "b1_simple_profile_template"
     projects = []
     projects.append(make_project("Cluster Monitor",csv_profile["Core Java"]))
     projects.append(make_project("Core Java Apps",csv_profile["Core Java"]))
