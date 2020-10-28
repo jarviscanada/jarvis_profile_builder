@@ -1,0 +1,31 @@
+{
+    "name": "Noshin Sadat",
+    "summary": "I have recently graduated from the University of Waterloo with a Master of Mathematics in Computer Science and I am looking to get my feet wet in the Data Engineering industry. I have a natural affinity for problem-solving. This developed into a genuine interest in pursuing a career in Computer Science and led me to pursue both an undergraduate and a graduate degree in this field. I got particularly interested in working with data and did several projects related to the same. I have gained strong programming skills in Java and R while working on assignments and projects. I also worked as Lecturer for Data Structures, Algorithms, and Introduction to Programming courses where the main language in practice was Java. This has helped me to develop a strong understanding of the concepts of Object-Oriented Programming. During my downtime, I like reading, listening to music, hanging out with friends and family, and sight-seeing. My career goal is to be able to solve real-world problems with the knowledge and experiences I gain.\n",
+    "template": "b1_simple_profile_template",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_noshin/tree/master/linux_sql"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_noshin/tree/master/core_java"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_noshin/tree/master/springboot"
+        },
+        {
+            "name": "Hadoop",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_noshin/tree/master/hadoop"
+        },
+        {
+            "name": "Spark",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_noshin/tree/master/spark"
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_noshin/tree/master/cloud_devops"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Ahmad Hassan",
+    "summary": "Around two years of working experience in the field of data analytics and software development. My expertise lies towards Java programming and big data. I have sound analytical and data engineering capabilities and hands on experience with database management using SQL and various machine learning algorithms using R and python. I have demonstrated strong communication and leadership skills through successful extracurricular initiatives and team lead role within a few months of professional experience.\n",
+    "template": "b1_simple_profile_template",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_ahmad/tree/master/linux_sql"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_ahmad/tree/master/core_java"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_ahmad/tree/master/springboot"
+        },
+        {
+            "name": "Hadoop",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_ahmad/tree/master/hadoop"
+        },
+        {
+            "name": "Spark",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_ahmad/tree/master/spark"
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_ahmad/tree/master/cloud_devops"
+        }
+    ]
+}

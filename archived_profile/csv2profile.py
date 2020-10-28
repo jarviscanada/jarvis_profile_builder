@@ -14,11 +14,12 @@ def make_profile(csv_profile):
     profile['summary'] = csv_profile['Summary']
     profile['template'] = "b1_simple_profile_template"
     projects = []
-    projects.append(make_project("Cluster Monitor",csv_profile["Core Java"]))
-    projects.append(make_project("Core Java Apps",csv_profile["Core Java"]))
-    projects.append(make_project("Spring Boot REST API App",csv_profile["Java Microservice (SpringBoot)"]))
-    projects.append(make_project("Hadoop & Spark",csv_profile["Big Data (Hadoop, Spark, Kafka)"]))
-    projects.append(make_project("Cloud & DevOps",csv_profile["Cloud Computing & DevOps"]))
+    projects.append(make_project("Cluster Monitor",csv_profile["linux"]))
+    projects.append(make_project("Core Java Apps",csv_profile["java"]))
+    projects.append(make_project("Spring Boot REST API App",csv_profile["springboot"]))
+    projects.append(make_project("Hadoop",csv_profile["hadoop"]))
+    projects.append(make_project("Spark",csv_profile["spark"]))
+    projects.append(make_project("Cloud & DevOps",csv_profile["cloud"]))
     profile['jarvis_projects'] = projects
     return profile
 

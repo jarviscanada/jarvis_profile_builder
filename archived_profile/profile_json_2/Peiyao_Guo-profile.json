@@ -1,0 +1,31 @@
+{
+    "name": "Peiyao Guo",
+    "summary": "Hi there! I am a recent graduate of the University of Waterloo with a Bachelor's degree in Computer Science. During my school time, I developed a thorough understanding of data structure and algorithms. I enjoy being challenged and engaged with projects that require me to work outside my comfort zone and knowledge set, as continuing to learn new development techniques and skills are important to me. I am an independent worker with limited supervision needed and meanwhile a collaborative team player. While I am free, I like to go hiking and reading.\n",
+    "template": "b1_simple_profile_template",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_pearl/tree/master/linux_sql"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_pearl/tree/master/core_java"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_pearl/tree/master/springboot"
+        },
+        {
+            "name": "Hadoop",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_pearl/tree/master/hadoop"
+        },
+        {
+            "name": "Spark",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_pearl/tree/master/spark"
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_pearl/tree/master/cloud_devops"
+        }
+    ]
+}

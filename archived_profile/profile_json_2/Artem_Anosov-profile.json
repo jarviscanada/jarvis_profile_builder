@@ -1,0 +1,31 @@
+{
+    "name": "Artem Anosov",
+    "summary": "I am a recent graduate from the University of Manitoba where I majored in Computer Science. Throughout my studies, I enjoyed learning software development and databases most. As for programming languages, Java is my favorite which is what I used in most assignments and projects, due to its OOP nature. Although I love learning, I also love implementing it. As a result, I was involved in different group projects in school, the biggest one was developing the website in a group of four people. It was very interesting and provided me with tons of valuable knowledge. During this phase of my life, I also learned more about my hobbies which include going to the gym, traveling, playing soccer, ping pong, and pool. Outside of my academic responsibilities, I also worked as a grocery/drugstore stock associate and a cashier at London Drugs. This opportunity, allowed me to improve my communicational and multitasking skills. In addition to that, it also taught me the importance of finding a work-life balance that I am now able to skillfully employ in my role and experiences here at Jarvis.\n",
+    "template": "b1_simple_profile_template",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_artem/tree/master/linux_sql"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_artem/tree/master/core_java"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_artem/tree/master/springboot"
+        },
+        {
+            "name": "Hadoop",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_artem/tree/master/hadoop"
+        },
+        {
+            "name": "Spark",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_artem/tree/master/spark"
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_artem/tree/master/cloud_devops"
+        }
+    ]
+}

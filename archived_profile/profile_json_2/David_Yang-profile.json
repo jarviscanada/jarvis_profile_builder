@@ -1,0 +1,31 @@
+{
+    "name": "David Yang",
+    "summary": "I am a graduate from the University of Toronto with a degree in Electrical and Computer Engineering. Professionally, I have had the opportunity to take on a few months of software work experience writing perl, python & tcl scripts to automate and report data in human readable tables and graphs. With automation, I was able to cut time spent on analyzing data by more than half. In addition to work experience, I enjoyed topics related to big data in school - my favorites being deep learning and databases. Outside of work I enjoy playing badminton and simulation video games. One game I enjoy in particular is City Skylines as I enjoy creating custom maps as well as testing other people's mods and others via Steam workshop. This hobby has instilled in me an appreciation for developers who provide good documentation for others to understand how to apply their work.\n",
+    "template": "b1_simple_profile_template",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_david/tree/master/linux_sql"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_david/tree/master/core_java"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_david/tree/master/springboot"
+        },
+        {
+            "name": "Hadoop",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_david/tree/master/hadoop"
+        },
+        {
+            "name": "Spark",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_david/tree/master/spark"
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_david/tree/master/cloud_devops"
+        }
+    ]
+}
