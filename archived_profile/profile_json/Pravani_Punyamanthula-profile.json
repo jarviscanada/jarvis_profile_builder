@@ -5,7 +5,7 @@
     "jarvis_projects": [
         {
             "name": "Cluster Monitor",
-            "git_url": "https://github.com/Pranavi25/java-app"
+            "git_url": "https://github.com/Pranavi25/jrvs_bootcamp"
         },
         {
             "name": "Core Java Apps",
@@ -16,7 +16,11 @@
             "git_url": "https://github.com/Pranavi25/trading-app"
         },
         {
-            "name": "Hadoop & Spark",
+            "name": "Hadoop",
+            "git_url": ""
+        },
+        {
+            "name": "Spark",
             "git_url": ""
         },
         {

@@ -5,7 +5,7 @@
     "jarvis_projects": [
         {
             "name": "Cluster Monitor",
-            "git_url": "https://github.com/aaantunes/java_apps"
+            "git_url": "https://github.com/aaantunes/Linux_Usage_Agent"
         },
         {
             "name": "Core Java Apps",
@@ -16,7 +16,11 @@
             "git_url": "https://github.com/aaantunes/trading_app"
         },
         {
-            "name": "Hadoop & Spark",
+            "name": "Hadoop",
+            "git_url": ""
+        },
+        {
+            "name": "Spark",
             "git_url": ""
         },
         {
