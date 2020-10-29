@@ -1,110 +1,108 @@
 <!-- Intro -->
-<? var profile = getProfile();?>
-
 <? if (!profile) { ?>
-<!-- Deal with empty profile -->
-Profile is not availble, please contact Jarvis account manager
-<? } else  { ?>
-<!-- Profile template -->
-<p style="font-weight:300; font-size:16px; line-height: 1.2em; margin-top:10px; margin-bottom:6px"><?=profile.summary?></p>
-<!-- Skills -->
-<center>
-   <h3 style="margin-top:30px;">Skills</h3>
-</center>
-<h4>Proficient</h4>
-<p> <?for(i in profile.skills.proficient){?>
-    <?=profile.skills.proficient[i]+', '?>
-    <?}?></p>
-<h4>Competent</h4>
-<p> <?for(i in profile.skills.competent){?>
-    <?=profile.skills.competent[i]+', '?>
-    <?}?>  </p>
-<h4>Familiar</h4>
- <?for(i in profile.skills.familiar){?>
-    <?=profile.skills.familiar[i]+', '?>
-    <?}?>
-
-<!-- Professional Exp -->
-<center>
-   <h3 style="margin-top:30px;">Professional Experience</h3>
-</center>
-<? for(i in profile.professional_experience){?>
- <h4 style="padding-top:30px; color:#F5051C;"><?= profile.professional_experience[i].title+', '+profile.professional_experience[i].company+', '+profile.professional_experience[i].duration ?></h4>
- <?=profile.professional_experience[i].description?>
- <br>
-<?}?>
-
-<!-- Jarvis Project -->
-<center>
-   <h3 style="margin-top:30px;">Jarvis Projects</h3>
-</center>
-
- <? for(i in profile.jarvis_projects){?>
-
-
-<h4 style="padding-top:30px; color:#F5051C;"><?=profile.jarvis_projects[i].name?><a href="<?=profile.github_repo_root_url + "/tree/master/" + profile.jarvis_projects[i].git_url?>" target="_blank">
-   <img align="right" border="0" alt="github" src="https://i.imgur.com/Xt477bi.png" width="25px">
-   </a>
-</h4>
-
-<? if (profile.jarvis_projects[i].description) { ?>
-
-<? if (Array.isArray(profile.jarvis_projects[i].description)) {?>
-<? for(j in profile.jarvis_projects[i].description) { ?>
-<?!='- <p>' + profile.jarvis_projects[i].description[j] + "</p>\n"?>
-<?}?>
-<? } else  { ?>
-<?=profile.jarvis_projects[i].description ?>
-<?}?>
-
-
-<? } else  { ?>
-<p>Not Started</p>
-<?}?>
-<?}?>
-
-<!-- Education -->
-<center>
-    <h3 style="margin-top:30px;">Education</h3>
- </center>
- <? for(i in profile.education){?>
-<h4 style="padding-top:30px; color:#F5051C;"><?=profile.education[i].school_name+', '+profile.education[i].duration?></h4>
-<p><?=profile.education[i].degree+', '+profile.education[i].department?></p>
-
-<? for(j in profile.education[i].awards_achievements){?>
-<?!="- <p>" + profile.education[i].awards_achievements[j] + "</p>\n"?>
-<?}?>
-
-
-<?}?>
-
-<!-- Highlighted Project -->
-<center>
-   <h3 style="margin-top:30px;">Highlighted Projects</h3>
-</center>
-
- <? for(i in profile.highlighted_projects){?>
- <h4 style="padding-top:30px; color:#F5051C;"><?=profile.highlighted_projects[i].name?>
-
-<? if (profile.highlighted_projects[i].git_url) { ?>
-   <a href="<?=profile.highlighted_projects[i].git_url?>" target="_blank">
-   <img align="right" border="0" alt="github" src="https://i.imgur.com/Xt477bi.png" width="25px">
-   </a>
-<?}?>
-
-</h4>
-<?=profile.highlighted_projects[i].description?>
-<?}?>
-
-<!-- others -->
- <? for(i in profile.others){?>
- <center>
-   <h3 style="margin-top:30px;"><?=profile.others[i].title?></h3>
-</center>
-
-<? for(j in profile.others[i].bullets){?>
-<?!="- <p>" + profile.others[i].bullets[j]+'</p>\n'?>
-<?}?>
-
-<?}?>
-<?}?>
+   <!-- Deal with empty profile -->
+   Profile is not availble, please contact your Jarvis account manager 
+   <? } else  { ?>
+   <!-- Profile template -->
+   <p style="font-weight:300; font-size:16px; line-height: 1.2em; margin-top:10px; margin-bottom:6px"><?=profile.summary?></p>
+   <!-- Skills -->
+   <center>
+      <h3 style="margin-top:30px;">Skills</h3>
+   </center>
+   <h4>Proficient</h4>
+   <p> <?for(i in profile.skills.proficient){?>
+       <?=profile.skills.proficient[i]+', '?>
+       <?}?></p>
+   <h4>Competent</h4>
+   <p> <?for(i in profile.skills.competent){?>
+       <?=profile.skills.competent[i]+', '?>
+       <?}?>  </p>
+   <h4>Familiar</h4>
+    <?for(i in profile.skills.familiar){?>
+       <?=profile.skills.familiar[i]+', '?>
+       <?}?>  
+   
+   <!-- Professional Exp -->
+   <center>
+      <h3 style="margin-top:30px;">Professional Experience</h3>
+   </center>
+   <? for(i in profile.professional_experience){?>
+    <h4 style="padding-top:30px; color:#F5051C;"><?= profile.professional_experience[i].title+', '+profile.professional_experience[i].company+', '+profile.professional_experience[i].duration ?></h4>
+    <?=profile.professional_experience[i].description?>
+    <br>
+   <?}?>
+   
+   <!-- Jarvis Project -->
+   <center>
+      <h3 style="margin-top:30px;">Jarvis Projects</h3>
+   </center>
+   
+    <? for(i in profile.jarvis_projects){?>
+   
+   
+   <h4 style="padding-top:30px; color:#F5051C;"><?=profile.jarvis_projects[i].name?><a href="<?=profile.github_repo_root_url + "/tree/master/" + profile.jarvis_projects[i].git_url?>" target="_blank">
+      <img align="right" border="0" alt="github" src="https://i.imgur.com/Xt477bi.png" width="25px">
+      </a>
+   </h4>
+   
+   <? if (profile.jarvis_projects[i].description) { ?>
+   
+   <? if (Array.isArray(profile.jarvis_projects[i].description)) {?>
+   <? for(j in profile.jarvis_projects[i].description) { ?>
+   <?!='- <p>' + profile.jarvis_projects[i].description[j] + "</p>\n"?>
+   <?}?>
+   <? } else  { ?>
+   <?=profile.jarvis_projects[i].description ?>
+   <?}?>   
+   
+   
+   <? } else  { ?>
+   <p>Not Started</p>
+   <?}?>   
+   <?}?>   
+   
+   <!-- Education -->
+   <center>
+       <h3 style="margin-top:30px;">Education</h3>
+    </center>
+    <? for(i in profile.education){?>
+   <h4 style="padding-top:30px; color:#F5051C;"><?=profile.education[i].school_name+', '+profile.education[i].duration?></h4>
+   <p><?=profile.education[i].degree+', '+profile.education[i].department?></p>
+   
+   <? for(j in profile.education[i].awards_achievements){?>
+   <?!="- <p>" + profile.education[i].awards_achievements[j] + "</p>\n"?>
+   <?}?>
+   
+   
+   <?}?>
+   
+   <!-- Highlighted Project -->
+   <center>
+      <h3 style="margin-top:30px;">Highlighted Projects</h3>
+   </center>
+   
+    <? for(i in profile.highlighted_projects){?>
+    <h4 style="padding-top:30px; color:#F5051C;"><?=profile.highlighted_projects[i].name?>
+   
+   <? if (profile.highlighted_projects[i].git_url) { ?>
+      <a href="<?=profile.highlighted_projects[i].git_url?>" target="_blank">
+      <img align="right" border="0" alt="github" src="https://i.imgur.com/Xt477bi.png" width="25px">
+      </a>
+   <?}?>
+    
+   </h4>
+   <?=profile.highlighted_projects[i].description?>
+   <?}?>
+   
+   <!-- others -->
+    <? for(i in profile.others){?>
+    <center>
+      <h3 style="margin-top:30px;"><?=profile.others[i].title?></h3>
+   </center>
+   
+   <? for(j in profile.others[i].bullets){?>
+   <?!="- <p>" + profile.others[i].bullets[j]+'</p>\n'?>
+   <?}?>
+    
+   <?}?>
+   <?}?>

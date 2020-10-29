@@ -1,11 +1,11 @@
 //Config
-var profileUrlCol = "G";
-var profileHTMLCol = "H";
+var profileUrlCol = "L";
+var profileHTMLCol = "M";
 var nameCol = "A";
 var sheetName = "profiles";
 var ss = SpreadsheetApp.getActive();
 var proSheet = ss.getSheetByName(sheetName);
-var row = 2;
+//var row;
 var profileArr = [];
 
 function onOpen() {
@@ -26,18 +26,22 @@ function letterToColumn(letter) {
 }
 
 //Get profile JSON
-function getProfile() {
+function getProfile(row_num) {
   var profileUrlColIndex = letterToColumn(profileUrlCol)
-  var url = proSheet.getRange(row, profileUrlColIndex).getValue();
-  
+  var url = proSheet.getRange(row_num, profileUrlColIndex).getValue().trim();
+
   if (!url) {
     return null;
   }
-  
-  var json = UrlFetchApp.fetch(url).getContentText();
-  json = JSON.parse(json);
-//
-  row += 1;
+
+  var json
+  try {
+    json = UrlFetchApp.fetch(url).getContentText();
+    json = JSON.parse(json);
+  } catch (err) {
+    json = null;
+  }
+  //row += 1;
   return json;
 }
 
@@ -47,22 +51,49 @@ function getName(row_num) {
   return name;
 }
 
+function writeHtml(row_num) {
+  var jsonProfile = getProfile(row_num);
+  var template_file;
+  var renderedHtmp;
+  if (!jsonProfile) {
+    //empty
+    renderedHtmp = 'Profile is not availble, please contact your Jarvis account manager';
+  } else {
+    if (jsonProfile.hasOwnProperty('template')) {
+      //special tempalte
+      template_file = jsonProfile.template;
+    } else {
+      //current template
+      template_file = "profile_template";
+    }
+    try {
+      var htmlTemp = HtmlService.createTemplateFromFile(template_file);
+      htmlTemp.profile = jsonProfile
+      renderedHtmp = htmlTemp.evaluate().getContent();
+    } catch (err) {
+      renderedHtmp = 'Profile is not availble, please contact your Jarvis account manager (template error)';
+    }
+  }
+
+  //write html google google sheet cell
+  var profileHTMLColIndex = letterToColumn(profileHTMLCol)
+  proSheet.getRange(row_num, profileHTMLColIndex).setValue(renderedHtmp.trim());
+}
 
 //Main loop
-var emptyNameCount=0
+var emptyNameCount = 0
+
 function buildHTML() {
   for (var j = 2; j < proSheet.getLastRow() + 1; j++) {
-    row = j;
+    //row = j;
     if (getName(j)) {
       emptyNameCount = 0;
-      var rawHtml = HtmlService.createTemplateFromFile("profile_template").evaluate().getContent();
-      var profileHTMLColIndex = letterToColumn(profileHTMLCol)
-      proSheet.getRange(j, profileHTMLColIndex).setValue(rawHtml.trim());
-    } else if (emptyNameCount > 10) { 
+      writeHtml(j);
+    } else if (emptyNameCount > 10) {
       break;
     } else {
-      emptyNameCount += 1 
-    } 
+      emptyNameCount += 1
+    }
   }
 }
 

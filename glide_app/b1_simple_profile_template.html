@@ -1,0 +1,26 @@
+<!-- Intro -->
+
+
+<? if (!profile) { ?>
+    <!-- Deal with empty profile -->
+    Profile is not availble, please contact your Jarvis account manager (error: empty profile inside template)
+    <? } else  { ?>
+    <!-- Profile template -->
+    <p style="font-weight:300; font-size:16px; line-height: 1.2em; margin-top:10px; margin-bottom:6px"><?=profile.summary?></p>
+    
+    <!-- Jarvis Project -->
+    <center>
+       <h3 style="margin-top:30px;">Jarvis Projects</h3>
+    </center>
+    
+    <? for(i in profile.jarvis_projects){?>
+    
+    <? if (profile.jarvis_projects[i].git_url) { ?>
+    <h4 style="padding-top:30px; color:#F5051C;"><?=profile.jarvis_projects[i].name?><a href="<?=profile.jarvis_projects[i].git_url?>" target="_blank">
+       <img align="right" border="0" alt="github" src="https://i.imgur.com/Xt477bi.png" width="25px">
+       </a>
+    </h4>
+    <?}?>  
+    
+    <?}?>  
+    <?}?>  
