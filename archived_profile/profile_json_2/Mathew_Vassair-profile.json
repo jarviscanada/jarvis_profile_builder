@@ -1,0 +1,31 @@
+{
+    "name": "Mathew Vassair",
+    "summary": "I graduated from a joint program between Brock University and Sheridan College, Computing and Network Communications. This program covered programming theory, practical applications, computer networking concepts and applications, and systems design. Between my education and my varied co-op experiences, I have built up a wide knowledge base and learned how to quickly teach myself new concepts, which I believe makes me a perfect fit for the Data Engineering industry. I'm also interested in the potential crossover between Data Engineering and other fields, both inside and outside the IT sphere, since a little external domain knowledge can go a long way in creating new solutions. Outside of Data Engineering, I enjoy photography, hiking, playing online games, and video game speedrunning.\n",
+    "template": "b1_simple_profile_template",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_mathew/tree/master/linux_sql"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_mathew/tree/master/core_java"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_mathew/tree/master/springboot"
+        },
+        {
+            "name": "Hadoop",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_mathew/tree/master/hadoop"
+        },
+        {
+            "name": "Spark",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_mathew/tree/master/spark"
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_mathew/tree/master/cloud_devops"
+        }
+    ]
+}

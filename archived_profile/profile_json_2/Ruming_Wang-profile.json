@@ -1,0 +1,31 @@
+{
+    "name": "Ruming Wang",
+    "summary": "I am a recent graduate from the University of Toronto with a major in Computer Science. I have always been passionate about the technology industry, where breaking new ground, growth, and making creative ideas come true happens every day. I have been able to carry on my passion in the form of creating various apps, and join in multiple developing clubs where I could utilize my critical thinking, leadership, and algorithmic skills which I gained during my undergraduate studies. During my leisure, I enjoy traveling, hiking, and volunteering at local high schools as a teaching assistant or participate in events that are dedicated to helping international students to have a smooth transition from high school into University in a foreign country. By doing this not only can I help others but also develop my communication and interpersonal skills. This is one of the most valued experiences during my study at the University of Toronto.\n",
+    "template": "b1_simple_profile_template",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_william/tree/master/linux_sql"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_william/tree/master/core_java"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_william/tree/master/springboot"
+        },
+        {
+            "name": "Hadoop",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_william/tree/master/hadoop"
+        },
+        {
+            "name": "Spark",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_william/tree/master/spark"
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_william/tree/master/cloud_devops"
+        }
+    ]
+}

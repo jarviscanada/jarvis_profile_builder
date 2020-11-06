@@ -1,0 +1,31 @@
+{
+    "name": "Harkirat Kaur",
+    "summary": "I'm an energetic Data Engineering Associate currently working on several practice projects including a particularly challenging project that involves building a set of highly performant, fault tolerant microservices to power a real-time trading app. I have done my bachelors in technology and have chosen data engineering as my career because of my interest in big data and machine learning.",
+    "template": "b1_simple_profile_template",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/Kirat24/Linux-Usage-Agent"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/Kirat24/Java_apps"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": ""
+        },
+        {
+            "name": "Hadoop",
+            "git_url": ""
+        },
+        {
+            "name": "Spark",
+            "git_url": ""
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": ""
+        }
+    ]
+}

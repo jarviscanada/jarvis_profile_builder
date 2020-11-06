@@ -1,0 +1,31 @@
+{
+    "name": "Andre Antunes",
+    "summary": "I'm a Data Engineering Associate with experience in object-oriented programming, back-end development, database design, and machine learning. Eager to learn, excellent people, time-management and leadership skills with a strong desire to grow in my field and produce an exceptional product. ",
+    "template": "b1_simple_profile_template",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/aaantunes/Linux_Usage_Agent"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/aaantunes/java_apps"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": "https://github.com/aaantunes/trading_app"
+        },
+        {
+            "name": "Hadoop",
+            "git_url": ""
+        },
+        {
+            "name": "Spark",
+            "git_url": ""
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": "https://github.com/aaantunes/cloud_DevOps"
+        }
+    ]
+}
