@@ -1,0 +1,31 @@
+{
+    "name": "Talha",
+    "summary": "Hi there! I am a York University alumni with a BSc Honours Degree in Computer Science. I am passionate and dedicate my unwavering commitment to whatever I set my mind to. As a result, I have been able to sharpen my work ethic to reflect the person that I am. I am a hard working, reliable, and trustworthy individual who is trying to improve every single day. Outside of work, I enjoy playing basketball with my team in our local Ahmadiyya Basketball League (ABL). I also had the pleasure of serving as President of the Ahmadiyya Muslim Students' Association (AMSA) at York University during my third and fourth years after I was elected by over 200 members. Now as an alumni, I continue to remain involved in our local community. Currently I am working and building upon my skills and experience with Jarvis as a Data Engineer Associate so I can continue to learn and grow within the Software industry.\n",
+    "template": "b1_simple_profile_template",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_talha"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_talha"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_talha"
+        },
+        {
+            "name": "Hadoop",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_talha"
+        },
+        {
+            "name": "Spark",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_talha"
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": "https://github.com/jarviscanada/jarvis_data_eng_talha"
+        }
+    ]
+}
