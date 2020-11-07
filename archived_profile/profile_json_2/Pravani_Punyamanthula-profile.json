@@ -1,0 +1,31 @@
+{
+    "name": "Pravani Punyamanthula",
+    "summary": "I'm a passionate learner who is always looking to improve and lead by example. I'm eager to work with data and use it to unlock new possibilities. I have experience as a Data Support Engineer at Amazon building data pipelines, writing ETL queries and R programming for Data Analysis. This lead me to pursue a Masters in Data Analytics in order to deepen my understanding of statistical problem solving approaches and methods.",
+    "template": "b1_simple_profile_template",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/Pranavi25/jrvs_bootcamp"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/Pranavi25/java-app"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": "https://github.com/Pranavi25/trading-app"
+        },
+        {
+            "name": "Hadoop",
+            "git_url": ""
+        },
+        {
+            "name": "Spark",
+            "git_url": ""
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": ""
+        }
+    ]
+}
