@@ -1,0 +1,31 @@
+{
+    "name": "Harshal Bilimoria",
+    "summary": "Entry level Data Engineer with a demonstrated history of working in the information technology. Skilled in Bash, Java, Spring Framework, C and PostgreSQL. Strong information technology professional with a Bachelor of Engineering - BE focused in Computer Engineering from Ryerson University",
+    "template": "b1_simple_profile_template",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/Harshal7797/Linux-Usage_Agent"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/Harshal7797/Java-Applications"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": "https://github.com/Harshal7797/Java-Trading_Application"
+        },
+        {
+            "name": "Hadoop",
+            "git_url": "https://github.com/Harshal7797/Hadoop"
+        },
+        {
+            "name": "Spark",
+            "git_url": "https://github.com/Harshal7797/Hadoop"
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": "https://github.com/Harshal7797/Cloud_DevOps"
+        }
+    ]
+}
