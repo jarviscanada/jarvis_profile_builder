@@ -1,0 +1,31 @@
+{
+    "name": "Siddhant Satam",
+    "summary": " I am a graduate in the field of Computer Science. A full-time chronic learner and a part-time dreamer. I am exploring the world through thought experiments, esoteric literature, tech analysis, and the great outdoors. I have a proven track record of academic and leadership excellence. Throughout the course of my academics, I have acquired the skills and experience to own and take projects from inception to production on an individual level or a team basis.",
+    "template": "b1_simple_profile_template",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/SiddhantSatam"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/SiddhantSatam"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": "https://github.com/SiddhantSatam"
+        },
+        {
+            "name": "Hadoop",
+            "git_url": "https://github.com/SiddhantSatam"
+        },
+        {
+            "name": "Spark",
+            "git_url": "https://github.com/SiddhantSatam"
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": "https://github.com/SiddhantSatam"
+        }
+    ]
+}
