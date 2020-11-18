@@ -1,0 +1,31 @@
+{
+    "name": "David Faig",
+    "summary": "I have a background in math and computer science, but I prefer my work to be writing code rather than writing about code. Jarvis placed me in CIBC as a developer, and I've been working on a large project with them for the past year. I get a lot of experience working in a fairly large agile team, though we do have to make some concessions on the \"agile\" part. Fortunately I get to work along side a lot of the Jarvis associates that I trained with",
+    "template": "b1_simple_profile_template",
+    "jarvis_projects": [
+        {
+            "name": "Cluster Monitor",
+            "git_url": "https://github.com/davidmiquelf"
+        },
+        {
+            "name": "Core Java Apps",
+            "git_url": "https://github.com/davidmiquelf"
+        },
+        {
+            "name": "Spring Boot REST API App",
+            "git_url": "https://github.com/davidmiquelf"
+        },
+        {
+            "name": "Hadoop",
+            "git_url": "https://github.com/davidmiquelf"
+        },
+        {
+            "name": "Spark",
+            "git_url": "https://github.com/davidmiquelf"
+        },
+        {
+            "name": "Cloud & DevOps",
+            "git_url": "https://github.com/davidmiquelf"
+        }
+    ]
+}
