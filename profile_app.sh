@@ -31,15 +31,15 @@ function validate_yaml() {
 
 function get_profile_name() {
   echo "---- Parsing metadat ----"
-  profile_name=$(docker run -it --rm -v "${PWD}":/workdir mikefarah/yq yq r profile.yaml name  | xargs | tr -d '\r' | sed -e 's/ /_/g')
+  profile_name=$(docker run -it --rm -v "${PWD}":/workdir mikefarah/yq:3.3.4 yq r profile.yaml name  | xargs | tr -d '\r' | sed -e 's/ /_/g')
   profile_prefix=jarvis_profile_${profile_name}
-  echo ${profile_name} 
+  echo ${profile_name}
   check_status $?
 }
 
 function yaml_to_json() {
   echo "---- Coverting profile YAML to JSON ----"
-  docker run --rm -v "${PWD}":/workdir mikefarah/yq yq r -j --prettyPrint profile.yaml > profile.json
+  docker run --rm -v "${PWD}":/workdir mikefarah/yq:3.3.4 yq r -j --prettyPrint profile.yaml > profile.json
   check_status $?
 }
 
