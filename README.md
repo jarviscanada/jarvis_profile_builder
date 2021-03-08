@@ -22,7 +22,7 @@ git checkout master
 git checkout -b feature/profile
 
 #init profile dir
-mkdir profile && cd profile && wget https://raw.githubusercontent.com/jarviscanada/jarvis_profile_builder/develop/profile_app.sh -O profile_app.sh && bash profile_app.sh init
+mkdir profile && cd profile && wget https://raw.githubusercontent.com/jarviscanada/jarvis_profile_builder/master/profile_app.sh -O profile_app.sh && bash profile_app.sh init
 
 #update your name from the profile.yaml file
 vim profile.yaml
