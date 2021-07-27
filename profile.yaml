@@ -9,6 +9,7 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis 
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+# DO NOT mention skills that you don't want to work on in the future (e.g. MS office)
 skills:
   # At least 5 skills
   proficient:
@@ -34,22 +35,26 @@ skills:
 
 # List of Jarvis projects
 jarvis_projects:
-  - name: "Cluster Monitor"
+  - name: "Linux Cluster Resource Monitoring App"
     git_url: "/linux_sql"
-    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description allows hiring managers to understand your project and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    # please include the following keywords: CentOS, Bash/Shell, docker, RDBMS/SQL/Postgresql, crontab, data anlytics
+    # The project description shall follow the simplified SDLC pattern, which covers the design, implementation/technologies, test, and deployment/DevOps. 
+    # e.g. Developed an XYZ app in Java which is used for blah blah. Implemented the app with Spring Boot, JDBC, X, Y, Z, etc. Tested the app with Junit, X, Y, etc. Dockerized the application blah blah.
+    # please include the following keywords: CentOS, Bash/Shell, docker, RDBMS/SQL/Postgresql, crontab, data analytics
     description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
-      #Keywords: Java 8, REST API, OAuth, MVC, JUnit, Mockito, Docker, Intellij
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      #Keywords: Java 8, REST API, OAuth, Design patterns (e.g. DAO, MVC), JUnit, Mockito, Docker
+      - "Twitter CRUD App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      # Keywords: Java 8, JDBC, RDBMS, SQL, CRUD,DAO
       - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      # Keywords: Java 8, Lambda, Stream API, IntelliJ
       - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  - name: "Springboot App"
+  - name: "Spring RESTful Microservices App"
     git_url: "/springboot"
-    #Keywords: MVC, REST API, Microservice, docker, JDBC or JDBCTemplate, RDBMS, Junit, Mockito, etc.
+    #Keywords: Java8, Spring Boot, REST API, Swagger, Postman, Microservice, Docker, JDBC/JDBCTemplate/DataSource, RDBMS/SQL, Junit, Mockito, etc.
     description: ""
   - name: "Python Data Analytics"
     git_url: "/python_data_anlytics"
@@ -66,6 +71,7 @@ jarvis_projects:
 
 # List of personal or academic projects
 # Feel free to add more projects
+# The project description shall follow the simplified SDLC pattern, which covers the design, implementation/technologies, test (manual/unit/integration), and deployment/DevOps (Docker/GIT/Cloud). 
 highlighted_projects:
     #project name
   - name: "Web app for resturant"
