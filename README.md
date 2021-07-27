@@ -39,7 +39,7 @@ jarvis_profile_John_Smith.pdf #PDF version of ../README.md
 
 # `profile.yaml`
 
-As a Jarvis consultant, this should be the only file you need to modify. Please see [Build your profile](##build-your-profile) section.
+This is the only file you should edit. The `profile_app.sh` will convert/render your `profile.yaml` into multiple formats for different purposes. 
 
 YAML (a recursive acronym for "YAML Ain't Markup Language") is a human-readable data-serialization language (similar to JSON but more human-readable). It is commonly used for configuration files and in applications where data is being stored or transmitted.
 
@@ -79,15 +79,15 @@ Jarvis Consultant App demo
 ### PDF
 `pandoc/latex:2.9.2.1` is used to render a given markdown file into PDF
 
-# Build your profile
+# Build your profile Steps
 
-- [ ] Setup the profile tool from your Github repo by following the [Quick Start](#quick-start) Section above
-- [ ] Edit the profile.yaml file from your favorite IDE.
+- [ ] Setup the profile tool in your Github repo by following the [Quick Start](#quick-start)
+- [ ] Edit the `profile.yaml` file from your favorite IDE.
   - [ ] Check your spelling and grammar through https://www.grammarly.com/
-  - [ ] Execute `bash profile_app.sh`
+  - [ ] Execute `bash profile_app.sh` (please make sure you execute this bash script before each commit)
 - [ ] Open a pull request that merges the feature branch into the master branch (yes, you can skip `develop` and `release` branches)
 - [ ] Senior developer and CSA will comment and review your PR.
-- [ ] You will need to update your `profile.yaml` file for each project as part of the project closing the ticket.
+- [ ] You will need to update your `profile.yaml` file for each project as part of the project closing the ticket. (please make sure you execute this bash script before each commit)
 
 # Appendix: Project/Job Description
 A project/job description allows hiring managers to understand the followings:
@@ -95,6 +95,23 @@ A project/job description allows hiring managers to understand the followings:
 - Context (e.g. web app for store owners, a mobile app for students, etc.)
 - Technical keywords, such as language, frameworks, design, tools, etc. (e.g. Java, Springboot, Microservice, REST API, Hadoop, Spark, etc.)
 - Results and achievements (e.g. performance improvement, award, product delivery, etc.)
+
+Please follow the simplified SDLC pattern that covers Design/Purposes, implementation/technologies, test (manual/unit/integration), and DevOps/Deployment to describe a project. Please see the sample description below.
+```
+#Design/Purposes
+Developed an XYZ app in [programming language] which is used for blah blah. 
+
+#Implementaiton/technologies
+Implemented the app with Spring Boot, JDBC, X, Y, Z, etc.  
+
+#Test 
+Tested the app with Junit, X, Y, etc.
+
+#Deployment
+Dockerized the app blah blah.
+
+#of course, the description should be in one line.
+```
 
 For non-technical projects/jobs, you can focus on soft skills instead of technologies (e.g. agile/scrum, team collaboration, communication, problem-solving, etc.)
 
