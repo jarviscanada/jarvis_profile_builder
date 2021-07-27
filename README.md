@@ -83,7 +83,8 @@ Jarvis Consultant App demo
 
 - [ ] Setup the profile tool in your Github repo by following the [Quick Start](#quick-start)
 - [ ] Edit the `profile.yaml` file from your favorite IDE.
-  - [ ] Check your spelling and grammar through https://www.grammarly.com/
+  - [ ] Please read instruction/comments from the template `profile.yaml` carefully
+  - [ ] Check your spelling and grammar through https://www.grammarly.com/ before each commit
   - [ ] Execute `bash profile_app.sh` (please make sure you execute this bash script before each commit)
 - [ ] Open a pull request that merges the feature branch into the master branch (yes, you can skip `develop` and `release` branches)
 - [ ] Senior developer and CSA will comment and review your PR.
