@@ -49,6 +49,8 @@ jarvis_projects:
       - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
       # Keywords: Java 8, Lambda, Stream API, IntelliJ
       - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+  # Please remove not started projects below so that they don't show up in your profile for now.
+  # You will need to add a project back to your profile upon completion
   - name: "Spring RESTful Microservices App"
     git_url: "/springboot"
     #Keywords: Java8, Spring Boot, REST API, Swagger, Postman, Microservice, Docker, JDBC/JDBCTemplate/DataSource, RDBMS/SQL, Junit, Mockito, etc.
