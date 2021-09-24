@@ -69,7 +69,7 @@ function render_pdf() {
 function overwrite_readme() {
   if ls ../README.md; then
     echo "---- Moving profile.md to ../README.md ----"
-    mv profile.md ../README.md
+    mv -f profile.md ../README.md
   fi
 }
 
