@@ -11,70 +11,42 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
 # 4) briefly talk about your qualifications (soft and tech) to justify why the hiring manager should hire your 
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
 
-# Group your skills by level.
-# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
-# DO NOT mention skills that you don't want to work on in the future (e.g. MS office)
 skills:
-  # At least 5 skills
-  proficient:
-    - Java
-    - Linux/Bash
+  # Please include 
+  #     1)soft skills (e.g. elicitation, communicaiton, collaberation, interpersonal, etc ) 
+  #     2) business tools (such as Excel, Viso, etc.)
+  Business Skills:
+    - Donec
+    - Donec
+    - Donec
+    - fermentum
+    - Donec
+  # Please add more data related skills, such as Python, Tableau, R, Matlab, AI, ML, Statistics, etc.
+  # You can also add some programming skills, such as programming languages, GIT, Linux, Cloud Platform, tools, etc.
+  Technical Skills:
     - RDBMS/SQL
-    - Agile/Scrum
-    - Git
-  # At least 5 skills
-  competent:
-    - Donec
-    - fermentum
-    - Donec
-    - fermentum
-    - Donec
-  # At least 5 skills
-  familiar:
-    - Donec
-    - fermentum
-    - fermentum
-    - fermentum
-    - fermentum
+    - Data Modeling/Mapping
+    - Data Analytics
 
 # List of Jarvis projects
+# Please describe your resume from a BSA perspective (e.g. requirement elicitation, scope, stakeholder, coordination, diagrams)
 jarvis_projects:
   - name: "Linux Cluster Resource Monitoring App"
     git_url: "/linux_sql"
-    # Please read the project description guideline carefully. Make sure you follow the simplified SDLC pattern. (t.ly/NlXQ)
-    # Please include the following keywords: CentOS, Bash/Shell, docker, RDBMS/SQL/Postgresql, crontab, data analytics
+    # Focus on BSA work instead of development work
+    # Include the following keywords: BRD, SRD, Elicitation, stakeholder, reqruiement, analysis, RDBMS, SQL, data modeling, SLA
     description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Core Java Apps"
-    git_url: "/core_java"
-    description:
-      #Keywords: Java 8, REST API, OAuth, Design patterns (e.g. DAO, MVC), JUnit, Mockito, Docker
-      - "Twitter CRUD App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      # Keywords: Java 8, JDBC, RDBMS, SQL, CRUD,DAO
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      # Keywords: Java 8, Lambda, Stream API, IntelliJ
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  # Please remove not started projects below so that they don't show up in your profile for now.
-  # You will need to add a project back to your profile upon completion
-  - name: "Spring RESTful Microservices App"
-    git_url: "/springboot"
-    #Keywords: Java8, Spring Boot, REST API, Swagger, Postman, Microservice, Docker, JDBC/JDBCTemplate/DataSource, RDBMS/SQL, Junit, Mockito, etc.
-    description: ""
   - name: "Python Data Analytics"
     git_url: "/python_data_anlytics"
+    # Focus on BSA work instead of development work
+    # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
     description: ""
   - name: "Hadoop"
     git_url: "/hadoop"
     description: ""
-  - name: "Spark"
-    git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
 
 # List of personal or academic projects
-# Feel free to add more projects
-# Please read the project description guideline carefully. Make sure you follow the simplified SDLC pattern. (t.ly/NlXQ)
+# Please focus on transferable skills, such as soft skills and data related skills
 highlighted_projects:
     #project name
   - name: "Web app for resturant"
@@ -86,15 +58,15 @@ highlighted_projects:
     git_url:
     description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
 
-#List of professional experience
-# Please read the project description guideline carefully. Make sure you follow the simplified SDLC pattern. (t.ly/NlXQ)
-#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+# List of professional experience
+# Please focus on transferable skills, such as soft skills and data related skills
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Jarvis"
     duration: "2020-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
+    # Avoid the following terms: training, learning, etc. Instead, you should focus on the work, such as worked on XYY; Wrote ABC document; Analyzed QWE project;
     description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
   - title: "Tutor"
     company: "XYZ Company"
@@ -130,6 +102,6 @@ others:
       - "Winner"
   - title: "Activities/Hobbies"
     bullets:
-      - "Basketball player"
-      - "Competitive gaming"
+      - "Basketball player; joined xyz club"
+      - "Competitive gaming; compete for xyz"
       - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
