@@ -9,6 +9,8 @@ Instead of writing various profile formats manually, the Jarvis Profile Builder 
 <img src="https://imgur.com/yVaQc8L.gif" width="300">
 
 # Quick Start 
+🔥Please see the [BSA_profile branch](https://github.com/jarviscanada/jarvis_profile_builder/tree/BSA_profile) for BSA specific instructions (e.g. `profile.md` is tailored for BSA)
+
 
 Please follow the steps below to set up this tool in your Github repo. 
 
@@ -83,6 +85,7 @@ Jarvis Consultant App demo
 
 # Build your profile Steps
 
+- [ ] 🔥Please see the [BSA_profile branch](https://github.com/jarviscanada/jarvis_profile_builder/tree/BSA_profile) for BSA specific instructions (e.g. `profile.md` is tailored for BSA)
 - [ ] Setup the profile tool in your Github repo by following the [Quick Start](#quick-start)
 - [ ] Edit the `profile.yaml` file from your favorite IDE.
   - [ ] Please read instruction/comments from the template `profile.yaml` carefully
