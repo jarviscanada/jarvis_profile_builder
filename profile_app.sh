@@ -26,7 +26,7 @@ function validate_yaml() {
   echo "---- Validating profile.yaml file ----"
   docker pull jrvs/yamale:bsa
   docker pull mikefarah/yq:3.3.4
-  docker run --rm -v "${PWD}":/workdir jrvs/yamale yamale -s /schema/profile_schema.yaml profile.yaml
+  docker run --rm -v "${PWD}":/workdir jrvs/yamale:bsa yamale -s /schema/profile_schema.yaml profile.yaml
   check_status $?
 }
 
