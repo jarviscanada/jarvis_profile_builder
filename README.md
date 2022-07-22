@@ -1,4 +1,4 @@
-# Jarvis Profile Builder
+# Jarvis Profile Builder (BSA)
 
 As a Jarvis consultant, your profile/resume will be distributed to clients via various channels in different formats. The Jarvis Consultant Web App (screenshot below) allows clients to view your profile conveniently. The [markdown profile](./profile.md) will be displayed on your GitHub repo as the landing page. The [PDF profile](./jarvis_profile_John_Smith.pdf) is often required by HR systems. Therefore, keeping profile styling consistent is crucial.
 
@@ -22,7 +22,7 @@ git checkout master
 git checkout -b feature/profile
 
 #init profile dir
-mkdir profile && cd profile && wget https://raw.githubusercontent.com/jarviscanada/jarvis_profile_builder/master/profile_app.sh -O profile_app.sh && bash profile_app.sh init
+mkdir profile && cd profile && wget https://raw.githubusercontent.com/jarviscanada/jarvis_profile_builder/BSA_profile/profile_app.sh -O profile_app.sh && bash profile_app.sh init
 
 #update your name from the profile.yaml file
 vim profile.yaml
