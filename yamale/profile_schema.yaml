@@ -9,9 +9,8 @@ education: list(include('education'))
 others: list(include('other'))
 ---
 skills:
-  proficient: list(str(), min=5)
-  competent: list(str(), min=5)
-  familiar: list(str(), min=5)
+  Business Skills: list(str(), min=5)
+  Technical Skills: list(str(), min=5)
 jarvis_projects: list(include('jarvis_project'))
 jarvis_project:
   name: str(required=True)
