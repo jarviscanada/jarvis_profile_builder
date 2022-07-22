@@ -4,11 +4,9 @@
 
 ## Skills
 
-**Proficient:** {{ ", ".join(profile['skills']["proficient"]) }}
+**Business Skills:** {{ ", ".join(profile['skills']["Business Skills"]) }}
 
-**Competent:** {{ ", ".join(profile['skills']["competent"]) }}
-
-**Familiar:** {{ ", ".join(profile['skills']["familiar"]) }}
+**Technical Skills:** {{ ", ".join(profile['skills']["Technical Skills"]) }}
 
 ## Jarvis Projects
 
