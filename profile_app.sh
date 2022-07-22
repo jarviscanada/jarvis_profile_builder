@@ -46,8 +46,8 @@ function yaml_to_json() {
 
 function render_md() {
   echo "---- Rendering profile.md ----"
-  docker pull jrvs/render_profile_md
-  docker run --rm -it -v "${PWD}":/workdir jrvs/render_profile_md  profile.yaml profile.md
+  docker pull jrvs/render_profile_md:bsa
+  docker run --rm -it -v "${PWD}":/workdir jrvs/render_profile_md:bsa  profile.yaml profile.md
   check_status $?
 }
 
