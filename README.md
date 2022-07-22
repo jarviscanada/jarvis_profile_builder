@@ -19,7 +19,7 @@ docker info
 
 #switch to the feature branch
 git checkout master
-git checkout -b feature/profile
+git checkout -b feature/BSA_profile
 
 #init profile dir
 mkdir profile && cd profile && wget https://raw.githubusercontent.com/jarviscanada/jarvis_profile_builder/BSA_profile/profile_app.sh -O profile_app.sh && bash profile_app.sh init
