@@ -86,7 +86,9 @@ Jarvis Consultant App demo
 # Build your profile Steps
 
 - [ ] 🔥Please see the [BSA_profile branch](https://github.com/jarviscanada/jarvis_profile_builder/tree/BSA_profile) for BSA specific instructions (e.g. `profile.md` is tailored for BSA)
-- [ ] Setup the profile tool in your Github repo by following the [Quick Start](#quick-start)
+- [ ] Read and review the examples provided in this repository. 
+- [ ] Setup the profile tool in your Github repo by following the [Quick Start](#quick-start). At this point, you should only edit the name field before generating your first profile.
+- [ ] Write your content first (using your favourite document editor), roughly following the format provided in the examples. In doing this, you will be able to quickly seek and implement feedback from our instructors without dealing with any technical issues relating to Git, the JRD, or yaml formatting.
 - [ ] Edit the `profile.yaml` file from your favorite IDE.
   - [ ] Please read instruction/comments from the template `profile.yaml` carefully
   - [ ] Check your spelling and grammar through https://www.grammarly.com/ before each commit
